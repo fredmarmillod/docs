@@ -15,13 +15,12 @@ To begin using our API, you need to generate an API token. Follow the steps belo
 - Submit the form to generate the token.
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  Upon generating the token, copy it immediately and store it in a secure location. For security reasons, you will not be able to view this token again.
 </Note>
 
-## Welcome
+## Include the Token in the Request Header
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+Once you have your API token, you must include it in the request header to access our API's endpoints. Here's how you can add the token to the header using curl:
 
 <Card
   title="Plant Store Endpoints"
